@@ -2,22 +2,28 @@
 
 ping checker for minecraft server like [paping](https://code.google.com/archive/p/paping/)
 
+## installation
+```bash
+python3 -m pip install mcstatus
+```
+
 ## usage
 
 ```python
-mcping.py <ip> <pe or pc> (port)
+$ mcping.py <ip> <pe or pc> (port)
 ```
+
 
 ## example 
 
 ```python
-mcping.py 127.0.0.1 pc 
+$ mcping.py 127.0.0.1 pc 
 ```
 ```python
-mcping.py 127.0.0.1 pe
+$ mcping.py 127.0.0.1 pe
 ```
 ```python
-mcping.py 127.0.0.1 pc 23231
+$ mcping.py 127.0.0.1 pc 23231
 ```
 ## releases
 [releases](https://github.com/Larinax999/mcping/releases)
