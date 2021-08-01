@@ -14,7 +14,7 @@ def make_green(text):
 s = 'Usage: {} <ip> <pe or pc> (port)'.format(argv[0])
 if len(argv) < 3 :
     exit(s)
-print("minecraft pe checker | by larina\n")
+print("minecraft ping checker | by larina\n")
 ip = argv[1]
 port = None
 a=1
